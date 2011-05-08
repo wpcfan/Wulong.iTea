@@ -17,6 +17,16 @@
 		B8870E36137585EB00A4F035 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8870E34137585EB00A4F035 /* MainWindow_iPhone.xib */; };
 		B8870E3A137585EB00A4F035 /* WulongAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = B8870E39137585EB00A4F035 /* WulongAppDelegate_iPad.m */; };
 		B8870E3D137585EB00A4F035 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8870E3B137585EB00A4F035 /* MainWindow_iPad.xib */; };
+		B8870E491375873100A4F035 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8870E1E137585EA00A4F035 /* UIKit.framework */; };
+		B8870E4A1375873100A4F035 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8870E20137585EA00A4F035 /* Foundation.framework */; };
+		B8870E4B1375873100A4F035 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8870E22137585EA00A4F035 /* CoreGraphics.framework */; };
+		B8870E511375873100A4F035 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B8870E4F1375873100A4F035 /* InfoPlist.strings */; };
+		B8870E541375873100A4F035 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B8870E531375873100A4F035 /* main.m */; };
+		B8870E571375873200A4F035 /* WulongTestsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8870E561375873100A4F035 /* WulongTestsAppDelegate.m */; };
+		B8870E5B1375873200A4F035 /* WulongTestsAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = B8870E5A1375873200A4F035 /* WulongTestsAppDelegate_iPhone.m */; };
+		B8870E5E1375873200A4F035 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8870E5C1375873200A4F035 /* MainWindow_iPhone.xib */; };
+		B8870E621375873200A4F035 /* WulongTestsAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = B8870E611375873200A4F035 /* WulongTestsAppDelegate_iPad.m */; };
+		B8870E651375873200A4F035 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8870E631375873200A4F035 /* MainWindow_iPad.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,18 +34,31 @@
 		B8870E1E137585EA00A4F035 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B8870E20137585EA00A4F035 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B8870E22137585EA00A4F035 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		B8870E26137585EA00A4F035 /* Wulong-Info.plist */ = {isa = PBXFileReference; path = "Wulong-Info.plist"; sourceTree = "<group>"; };
+		B8870E26137585EA00A4F035 /* Wulong-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Wulong-Info.plist"; sourceTree = "<group>"; };
 		B8870E28137585EA00A4F035 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		B8870E2A137585EA00A4F035 /* Wulong-Prefix.pch */ = {isa = PBXFileReference; path = "Wulong-Prefix.pch"; sourceTree = "<group>"; };
+		B8870E2A137585EA00A4F035 /* Wulong-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Wulong-Prefix.pch"; sourceTree = "<group>"; };
 		B8870E2B137585EA00A4F035 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B8870E2D137585EA00A4F035 /* WulongAppDelegate.h */ = {isa = PBXFileReference; path = WulongAppDelegate.h; sourceTree = "<group>"; };
+		B8870E2D137585EA00A4F035 /* WulongAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WulongAppDelegate.h; sourceTree = "<group>"; };
 		B8870E2E137585EA00A4F035 /* WulongAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WulongAppDelegate.m; sourceTree = "<group>"; };
-		B8870E31137585EA00A4F035 /* WulongAppDelegate_iPhone.h */ = {isa = PBXFileReference; name = WulongAppDelegate_iPhone.h; path = iPhone/WulongAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		B8870E31137585EA00A4F035 /* WulongAppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WulongAppDelegate_iPhone.h; path = iPhone/WulongAppDelegate_iPhone.h; sourceTree = "<group>"; };
 		B8870E32137585EA00A4F035 /* WulongAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = WulongAppDelegate_iPhone.m; path = iPhone/WulongAppDelegate_iPhone.m; sourceTree = "<group>"; };
 		B8870E35137585EB00A4F035 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
-		B8870E38137585EB00A4F035 /* WulongAppDelegate_iPad.h */ = {isa = PBXFileReference; name = WulongAppDelegate_iPad.h; path = iPad/WulongAppDelegate_iPad.h; sourceTree = "<group>"; };
+		B8870E38137585EB00A4F035 /* WulongAppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WulongAppDelegate_iPad.h; path = iPad/WulongAppDelegate_iPad.h; sourceTree = "<group>"; };
 		B8870E39137585EB00A4F035 /* WulongAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = WulongAppDelegate_iPad.m; path = iPad/WulongAppDelegate_iPad.m; sourceTree = "<group>"; };
 		B8870E3C137585EB00A4F035 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+		B8870E471375873100A4F035 /* WulongTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WulongTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8870E4E1375873100A4F035 /* WulongTests-Info.plist */ = {isa = PBXFileReference; path = "WulongTests-Info.plist"; sourceTree = "<group>"; };
+		B8870E501375873100A4F035 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B8870E521375873100A4F035 /* WulongTests-Prefix.pch */ = {isa = PBXFileReference; path = "WulongTests-Prefix.pch"; sourceTree = "<group>"; };
+		B8870E531375873100A4F035 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B8870E551375873100A4F035 /* WulongTestsAppDelegate.h */ = {isa = PBXFileReference; path = WulongTestsAppDelegate.h; sourceTree = "<group>"; };
+		B8870E561375873100A4F035 /* WulongTestsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WulongTestsAppDelegate.m; sourceTree = "<group>"; };
+		B8870E591375873200A4F035 /* WulongTestsAppDelegate_iPhone.h */ = {isa = PBXFileReference; name = WulongTestsAppDelegate_iPhone.h; path = iPhone/WulongTestsAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		B8870E5A1375873200A4F035 /* WulongTestsAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = WulongTestsAppDelegate_iPhone.m; path = iPhone/WulongTestsAppDelegate_iPhone.m; sourceTree = "<group>"; };
+		B8870E5D1375873200A4F035 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		B8870E601375873200A4F035 /* WulongTestsAppDelegate_iPad.h */ = {isa = PBXFileReference; name = WulongTestsAppDelegate_iPad.h; path = iPad/WulongTestsAppDelegate_iPad.h; sourceTree = "<group>"; };
+		B8870E611375873200A4F035 /* WulongTestsAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = WulongTestsAppDelegate_iPad.m; path = iPad/WulongTestsAppDelegate_iPad.m; sourceTree = "<group>"; };
+		B8870E641375873200A4F035 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +72,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B8870E441375873100A4F035 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8870E491375873100A4F035 /* UIKit.framework in Frameworks */,
+				B8870E4A1375873100A4F035 /* Foundation.framework in Frameworks */,
+				B8870E4B1375873100A4F035 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -56,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				B8870E24137585EA00A4F035 /* Wulong */,
+				B8870E4C1375873100A4F035 /* WulongTests */,
 				B8870E1D137585EA00A4F035 /* Frameworks */,
 				B8870E1B137585EA00A4F035 /* Products */,
 			);
@@ -65,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				B8870E1A137585EA00A4F035 /* Wulong.app */,
+				B8870E471375873100A4F035 /* WulongTests.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -122,6 +157,49 @@
 			name = iPad;
 			sourceTree = "<group>";
 		};
+		B8870E4C1375873100A4F035 /* WulongTests */ = {
+			isa = PBXGroup;
+			children = (
+				B8870E551375873100A4F035 /* WulongTestsAppDelegate.h */,
+				B8870E561375873100A4F035 /* WulongTestsAppDelegate.m */,
+				B8870E581375873200A4F035 /* iPhone */,
+				B8870E5F1375873200A4F035 /* iPad */,
+				B8870E4D1375873100A4F035 /* Supporting Files */,
+			);
+			path = WulongTests;
+			sourceTree = "<group>";
+		};
+		B8870E4D1375873100A4F035 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B8870E4E1375873100A4F035 /* WulongTests-Info.plist */,
+				B8870E4F1375873100A4F035 /* InfoPlist.strings */,
+				B8870E521375873100A4F035 /* WulongTests-Prefix.pch */,
+				B8870E531375873100A4F035 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B8870E581375873200A4F035 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				B8870E591375873200A4F035 /* WulongTestsAppDelegate_iPhone.h */,
+				B8870E5A1375873200A4F035 /* WulongTestsAppDelegate_iPhone.m */,
+				B8870E5C1375873200A4F035 /* MainWindow_iPhone.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		B8870E5F1375873200A4F035 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				B8870E601375873200A4F035 /* WulongTestsAppDelegate_iPad.h */,
+				B8870E611375873200A4F035 /* WulongTestsAppDelegate_iPad.m */,
+				B8870E631375873200A4F035 /* MainWindow_iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -140,6 +218,23 @@
 			name = Wulong;
 			productName = Wulong;
 			productReference = B8870E1A137585EA00A4F035 /* Wulong.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B8870E461375873100A4F035 /* WulongTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8870E661375873200A4F035 /* Build configuration list for PBXNativeTarget "WulongTests" */;
+			buildPhases = (
+				B8870E431375873100A4F035 /* Sources */,
+				B8870E441375873100A4F035 /* Frameworks */,
+				B8870E451375873100A4F035 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WulongTests;
+			productName = WulongTests;
+			productReference = B8870E471375873100A4F035 /* WulongTests.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -163,6 +258,7 @@
 			projectRoot = "";
 			targets = (
 				B8870E19137585EA00A4F035 /* Wulong */,
+				B8870E461375873100A4F035 /* WulongTests */,
 			);
 		};
 /* End PBXProject section */
@@ -178,6 +274,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B8870E451375873100A4F035 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8870E511375873100A4F035 /* InfoPlist.strings in Resources */,
+				B8870E5E1375873200A4F035 /* MainWindow_iPhone.xib in Resources */,
+				B8870E651375873200A4F035 /* MainWindow_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -189,6 +295,17 @@
 				B8870E2F137585EA00A4F035 /* WulongAppDelegate.m in Sources */,
 				B8870E33137585EA00A4F035 /* WulongAppDelegate_iPhone.m in Sources */,
 				B8870E3A137585EB00A4F035 /* WulongAppDelegate_iPad.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8870E431375873100A4F035 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8870E541375873100A4F035 /* main.m in Sources */,
+				B8870E571375873200A4F035 /* WulongTestsAppDelegate.m in Sources */,
+				B8870E5B1375873200A4F035 /* WulongTestsAppDelegate_iPhone.m in Sources */,
+				B8870E621375873200A4F035 /* WulongTestsAppDelegate_iPad.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,6 +332,30 @@
 			isa = PBXVariantGroup;
 			children = (
 				B8870E3C137585EB00A4F035 /* en */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+		B8870E4F1375873100A4F035 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8870E501375873100A4F035 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B8870E5C1375873200A4F035 /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8870E5D1375873200A4F035 /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		B8870E631375873200A4F035 /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8870E641375873200A4F035 /* en */,
 			);
 			name = MainWindow_iPad.xib;
 			sourceTree = "<group>";
@@ -284,6 +425,36 @@
 			};
 			name = Release;
 		};
+		B8870E671375873200A4F035 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WulongTests/WulongTests-Prefix.pch";
+				INFOPLIST_FILE = "WulongTests/WulongTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B8870E681375873200A4F035 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WulongTests/WulongTests-Prefix.pch";
+				INFOPLIST_FILE = "WulongTests/WulongTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -301,6 +472,14 @@
 			buildConfigurations = (
 				B8870E41137585EB00A4F035 /* Debug */,
 				B8870E42137585EB00A4F035 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B8870E661375873200A4F035 /* Build configuration list for PBXNativeTarget "WulongTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8870E671375873200A4F035 /* Debug */,
+				B8870E681375873200A4F035 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
